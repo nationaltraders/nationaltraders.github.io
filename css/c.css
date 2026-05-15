@@ -1,0 +1,45 @@
+.wrapper.svelte-m7c3ml {
+    box-shadow: 0 6px 6px #0003,0 0 20px #0000001a;
+    background-color: transparent
+}
+
+.effect.svelte-m7c3ml {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    -webkit-backdrop-filter: blur(var(--liquid-glass-blur, 5px));
+    backdrop-filter: blur(var(--liquid-glass-blur, 5px));
+    filter: url(#liquid-glass-distortion);
+    overflow: hidden;
+    isolation: isolate
+}
+
+.tint.svelte-m7c3ml {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    background: var(--liquid-glass-background, var(--brand-gradient));
+    opacity: var(--liquid-glass-opacity, .4)
+}
+
+.shine.svelte-m7c3ml {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow: inset 2px 2px 1px #dda7e94d,inset -1px -1px 1px 1px #dda7e94d
+}
+
+.content.svelte-m7c3ml {
+    isolation: isolate;
+    min-height: 100%
+}
