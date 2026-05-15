@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.svg">    
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link href="css/a.css" rel="stylesheet" type="text/css"/>
+    <link href="css/b.css" rel="stylesheet" type="text/css"/>
+    <link href="css/c.css" rel="stylesheet" type="text/css"/>      
+  </head>
+<body>
+
+<!-- Header -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-stone-200">
+  <div class="max-w-7xl mx-auto px-5 lg:px-10 flex items-center justify-between h-16">
+    <a href="index.html" class="flex items-center gap-2">
+      <span class="inline-flex items-center justify-center w-18 h-18 rounded-full">
+        <img src="img/logo.png" width="150" height="150" alt="Logo">
+      </span>
+      <span class="font-bold text-4xl tracking-tight text-orange-900 hidden sm:block">National Traders <span class="text-orange-600 text-sm font-medium">Bhusawal | Warangal</span></span>
+    </a>
+   <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
+    <a href="index.html" class="hover:text-orange-500 transition-colors">Home</a>
+      <a href="index.html#products" class="hover:text-orange-500 transition-colors">Products</a>
+      <a href="index.html#services" class="hover:text-orange-500 transition-colors">Services</a>
+      <a href="index.html#about" class="hover:text-orange-500 transition-colors">About</a>
+      <a href="index.html#contact" class="hover:text-orange-500 transition-colors">Contact</a>
+    </nav>
+    <a href="index.html#contact" class="hidden md:inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors">
+      Get a Quote
+    </a>
+    <button class="md:hidden flex flex-col gap-1.5 p-2" aria-label="Open menu">
+      <span class="block w-6 h-0.5 bg-stone-800"></span>
+      <span class="block w-6 h-0.5 bg-stone-800"></span>
+      <span class="block w-4 h-0.5 bg-stone-800"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative min-h-[60vh] flex items-end overflow-hidden bg-stone-950 pt-16">
+  <img src="img/392d7120e5b7f5a0e7b739a0eeef5790d0d6def3f3f759d951d78e0c41753176.png" width="1344" height="768" alt="Interior Paints" class="absolute inset-0 w-full h-full object-cover opacity-50">
+  <div class="absolute inset-0" style="background: linear-gradient(to top, #0c0a09 30%, transparent 80%);"></div>
+  <div class="absolute inset-0" style="background: linear-gradient(100deg, #0c0a09 0%, transparent 55%);"></div>
+  
+  <!-- Color Bar Decor (Violet Tones) -->
+  <div class="absolute top-0 right-0 h-full w-1.5 flex flex-col">
+    <div class="flex-1 bg-violet-500"></div>
+    <div class="flex-1 bg-violet-600"></div>
+    <div class="flex-1 bg-violet-800"></div>
+  </div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-5 lg:px-10 pb-16 md:pb-20 w-full">
+    <div class="max-w-2xl">
+      <span class="inline-block text-violet-400 text-xs font-semibold tracking-widest uppercase mb-3">Heavy Duty Solutions</span>
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.05] mb-6">
+        Industrial &<br>
+        <span class="text-violet-400">Specialty Coatings</span>
+      </h1>
+      <p class="text-stone-300 text-lg md:text-xl leading-relaxed max-w-lg mb-8">
+        Engineered for durability, chemical resistance, and heavy-duty performance on steel, concrete, and floors.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Product Grid -->
+<section class="bg-stone-50 py-20 md:py-28">
+  <div class="max-w-7xl mx-auto px-5 lg:px-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Product 1 -->
+      <div class="group relative bg-white rounded-2xl overflow-hidden border border-stone-100 hover:shadow-xl transition-shadow">
+        <div class="h-48 overflow-hidden">
+          <img src="img/s1.png" width="1024" height="768" alt="Epoxy Flooring" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-6">
+          <div class="inline-flex items-center gap-2 text-xs font-semibold text-violet-600 uppercase tracking-wider mb-3">
+            <span class="w-2 h-2 rounded-full bg-violet-500 inline-block"></span> Flooring
+          </div>
+          <h3 class="text-xl font-bold text-stone-900 mb-2">Epoxy Floor Coating</h3>
+          <p class="text-stone-500 text-sm leading-relaxed mb-5">Seamless, chemical-resistant flooring ideal for warehouses, factories, and garages.</p>
+          <a href="index.html#contact" class="text-sm font-semibold text-violet-600 hover:text-violet-800 flex items-center gap-1 transition-colors">
+            Enquire Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="group relative bg-white rounded-2xl overflow-hidden border border-stone-100 hover:shadow-xl transition-shadow">
+        <div class="h-48 overflow-hidden">
+          <img src="img/s2.png" width="1024" height="768" alt="Heat Resistant" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-6">
+          <div class="inline-flex items-center gap-2 text-xs font-semibold text-violet-600 uppercase tracking-wider mb-3">
+            <span class="w-2 h-2 rounded-full bg-violet-500 inline-block"></span> High Temp
+          </div>
+          <h3 class="text-xl font-bold text-stone-900 mb-2">Heat Resistant Aluminium</h3>
+          <p class="text-stone-500 text-sm leading-relaxed mb-5">Withstands temperatures up to 500°C. Perfect for chimneys, exhausts, and ovens.</p>
+          <a href="index.html#contact" class="text-sm font-semibold text-violet-600 hover:text-violet-800 flex items-center gap-1 transition-colors">
+            Enquire Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="group relative bg-white rounded-2xl overflow-hidden border border-stone-100 hover:shadow-xl transition-shadow">
+        <div class="h-48 overflow-hidden">
+          <img src="img/s3.png" width="1024" height="768" alt="Anti-Corrosive" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="p-6">
+          <div class="inline-flex items-center gap-2 text-xs font-semibold text-violet-600 uppercase tracking-wider mb-3">
+            <span class="w-2 h-2 rounded-full bg-violet-500 inline-block"></span> Protective
+          </div>
+          <h3 class="text-xl font-bold text-stone-900 mb-2">Anti-Corrosive Primer</h3>
+          <p class="text-stone-500 text-sm leading-relaxed mb-5">Zinc-rich primer providing superior rust protection for steel structures and marine environments.</p>
+          <a href="index.html#contact" class="text-sm font-semibold text-violet-600 hover:text-violet-800 flex items-center gap-1 transition-colors">
+            Enquire Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-stone-950 text-stone-500 py-12">
+  <div class="max-w-7xl mx-auto px-5 lg:px-10">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-10 pb-10 border-b border-white/5">
+      <div>
+        <a href="#" class="flex items-center gap-2 mb-3">
+           <span class="inline-flex items-center justify-center w-18 h-18 rounded-full">
+            <img src="img/logobottom.png" width="150" height="150" alt="Logo">
+          </span>
+          <span class="font-bold text-base text-white tracking-tight">National Traders <span class="text-orange-500 text-sm font-medium">[Bhusawal | Jalgaon | Warangal]</span></span>
+        </a>
+        <p class="text-sm max-w-xs leading-relaxed">Premium paint distribution for professionals. Quality you can see, service you can count on.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-x-16 gap-y-3 text-sm">
+        <a href="index.html" class="hover:text-white transition-colors">Home</a>
+        <a href="interior.html" class="hover:text-white transition-colors">Interior</a>
+        <a href="exterior.html" class="hover:text-white transition-colors">Exterior</a>
+        <a href="industrial.html" class="hover:text-white transition-colors">Industrial</a>
+        <a href="index.html#contact" class="hover:text-white transition-colors">Contact</a>
+      </div>
+    </div>
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <span>&copy; 2026 National Traders. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/global.js"></script>
+</body>
+</html>
